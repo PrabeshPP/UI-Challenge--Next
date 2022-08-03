@@ -18,7 +18,7 @@ const MainNavigation = () => {
         </div>
         <div className='h-[100%] w-[20%] flex flex-row items-center justify-around'>
               <span className='cursor-pointer'>Login</span>
-              <div className='border-2 border-black rounded-md h-[50%] w-[30%] flex items-center justify-center cursor-pointer'>Register</div>
+              <div className='border-[1px] border-[#383636] rounded-md h-[50%] w-[30%] flex items-center justify-center cursor-pointer'>Register</div>
         </div>
     </div>
   )
