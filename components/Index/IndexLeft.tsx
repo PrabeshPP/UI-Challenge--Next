@@ -7,7 +7,7 @@ import maker from "../../public/images/client-maker.svg";
 
 const IndexLeft = () => {
   return (
-    <div className='h-[100%] w-[50%] flex items-center justify-center'>
+    <div className='sm:h-[100%] sm:w-[50%] sm:flex sm:items-center sm:justify-center'>
         <div className='h-[90%] w-[80%]'>
             <div className='mt-10'>
                 <h1 className='text-5xl font-[700]'>Make</h1>
