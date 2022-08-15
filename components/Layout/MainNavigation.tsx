@@ -1,14 +1,16 @@
 import React from 'react'
+import Image from 'next/image'
+import menuImage from "../../public/images/icon-menu.svg";
 
 const MainNavigation = () => {
   return (
-    <div className='h-[10vh] w-[100%] sm:flex-row flex justify-between'>
-        <div className='h-[100%] w-[45%] flex flex-row'>
-            <div className='h-[100%] w-[40%] justify-center items-center flex'>
+    <div className='h-[10vh] w-[100%] sm:flex-row flex justify-between sticky top-0 z-20 bg-white'>
+        <div className='h-[100%] sm:w-[45%] w-[100%] flex flex-row justify-between'>
+            <div className='h-[100%] w-[40%] sm:justify-center pl-3 items-center flex'>
               <h1 className='text-2xl font-epilogue font-bold'>snap</h1>
             </div>
-            <div>
-              
+            <div className='h-[100%] w-[30%] flex justify-center items-center sm:hidden'>
+              <Image src={menuImage} />
             </div>
             <div className='sm:h-[100%] sm:w-[80%] hidden sm:block'>
                 <ul className='h-[100%] w-[80%] flex flex-row items-center justify-around'>
