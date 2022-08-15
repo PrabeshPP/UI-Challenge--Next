@@ -7,7 +7,7 @@ const MainNavigation = () => {
     <div className='h-[10vh] w-[100%] sm:flex-row flex justify-between sticky top-0 z-20 bg-white'>
         <div className='h-[100%] sm:w-[45%] w-[100%] flex flex-row justify-between'>
             <div className='h-[100%] w-[40%] sm:justify-center pl-3 items-center flex'>
-              <h1 className='text-2xl font-epilogue font-bold'>snap</h1>
+              <h1 className='sm:text-2xl text-4xl font-epilogue font-bold'>snap</h1>
             </div>
             <div className='h-[100%] w-[30%] flex justify-center items-center sm:hidden'>
               <Image src={menuImage} />
