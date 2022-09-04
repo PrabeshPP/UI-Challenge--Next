@@ -17,5 +17,17 @@ $primary-color:purple;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.34),0px 5px 10px rgba(0, 0, 0, 0.34);
 }
 
+.navBox{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 

@@ -10,8 +10,8 @@ const MainNavigation = () => {
             <div className={classes.navBox}>
                 <div>Home</div>
                 <div>Recent</div>
-                <div></div>
-                <div></div>
+                <div>Articles</div>
+                <div>Summary</div>
             </div>
         </div>
     )
