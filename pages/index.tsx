@@ -6,7 +6,13 @@ import styles from '../styles/Home.module.scss'
 const Home: NextPage = () => {
   return (
     <div>
-    
+      <Head>
+      <title>Snap</title>
+      <meta
+        title='description'
+        content="Add your own meetups and create an amazing connection opportunities."
+      />
+    </Head>
     </div>
   )
 }
