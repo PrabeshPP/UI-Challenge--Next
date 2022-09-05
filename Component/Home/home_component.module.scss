@@ -1,0 +1,41 @@
+@mixin box() {
+    height: 90vh;
+    width: 50%;
+}
+
+@mixin spanText() {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.homeBox{
+    min-height: 90vh;
+    width: 100%;
+    display: flex
+}
+
+.leftBox{
+    @include box();
+}
+
+.rightBox{
+    @include box();
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+
+    .span1{
+        @include spanText();
+    }
+
+    .span2{
+        @include spanText();
+    }
+    
+}
+
+
+
